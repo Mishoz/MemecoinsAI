@@ -2,6 +2,6 @@
 set -e
 echo "Running sync at $(date)"
 cd /home/NikiPC/Documents/MemecoinsAI
-git pull origin main
-git push origin main
+gh repo sync
+# git push is handled by gh repo sync if needed
 echo "Sync completed at $(date)"
