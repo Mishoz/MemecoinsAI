@@ -1,0 +1,5 @@
+ccxt
+pandas
+scikit-learn
+sqlalchemy
+python-telegram-bot
