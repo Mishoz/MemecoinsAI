@@ -27,10 +27,10 @@ The goal is to build a high-frequency, sentiment-aware memecoin trading bot capa
 ## Development Roadmap
 
 ### Phase 1: Foundation & Basic Trading (Weeks 1-2)
-- [ ] Setup environment and repository structure.
-- [ ] Implement basic exchange API connections (Binance/MEXC).
-- [ ] Build core "Market Data" listener.
-- [ ] Basic "Buy/Sell" execution logic.
+- [x] Setup environment and repository structure.
+- [x] Implement basic exchange API connections (Binance/MEXC).
+- [x] Build core "Market Data" listener.
+- [x] Basic "Buy/Sell" execution logic.
 
 ### Phase 2: Sentiment & Strategy (Weeks 3-5)
 - [ ] Integrate Twitter/Telegram API for sentiment analysis.
