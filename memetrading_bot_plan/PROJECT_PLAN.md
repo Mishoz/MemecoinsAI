@@ -33,7 +33,7 @@ The goal is to build a high-frequency, sentiment-aware memecoin trading bot capa
 - [x] Basic "Buy/Sell" execution logic.
 
 ### Phase 2: Sentiment & Strategy (Weeks 3-5)
-- [ ] Integrate Twitter/Telegram API for sentiment analysis.
+- [x] Integrate Twitter/Telegram API for sentiment analysis.
 - [ ] Develop and backtest "Momentum + Sentiment" strategy.
 - [ ] Implement multi-exchange execution.
 - [ ] Build risk management module (Stop-loss, Take-profit).
