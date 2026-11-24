@@ -21,15 +21,22 @@
   - TP3 (Trailing): 50%
 - **Hard Exits:** Developer sells, LP drops >20% in 1h, Social velocity <50%.
 
-## 4. Rug Pull Detection
-- **Contract Checks:** Mint authority, Freeze authority, LP lock, Bubblemaps (clusters), Honeypot test.
-- **Metrics:** Vol/Liq Ratio (<2.0), Liq/MC Ratio (>5%), Holder Growth (>10% daily).
+## 4. Rug Pull Detection & Safety
+- **Contract Analysis:** Check Mint/Freeze authority, LP lock, Bubblemaps (clusters), and Honeypot tests.
+- **Metrics:** Vol/Liq Ratio (<2.0), Liq/MC Ratio (>5%), and Holder Growth (>10% daily).
 
-## 5. Bot Configuration
-- **Slippage:** 2-3% (Standard), 3-5% (New pools).
-- **MEV Protection:** Mandatory for both Solana (Jito/Helius) and EVM (Flashbots).
-- **Time-Based Exits:** 72h rule (No 50% gain -> Cut 50%).
+## 5. Institutional & Cross-Chain Patterns
+- **Institutional Behavior:** Monitor for "blue-chip" accumulation; focus on high-liquidity pools and low-slippage environments.
+- **Cross-Chain Arbitrage:** Monitor SOL vs. ETH migration trends; exploit liquidity gaps during bridge events.
+- **Regulatory Awareness:** Monitor SEC enforcement actions; prioritize projects with decentralized governance to mitigate compliance risk.
 
-## 6. Tax Optimization
-- **Loss Harvesting:** Sell losers to claim deductions; carry forward excess losses.
-- **Wash Sale:** No crypto wash sale rule (immediate re-buy allowed).
+## 6. Bot Configuration & Automation
+- **Dynamic Slippage:** 2-3% standard; 3-5% for high-volatility new pools.
+- **MEV Protection:** Mandatory use of Jito (Solana) or Flashbots (EVM) to prevent sandwich attacks.
+- **Time-Based Exits:** "72h rule" - if no 50% gain is achieved within 72h, exit 50% of position.
+- **Advanced Filtering:** Filter for high "Social Velocity" and low "Developer Concentration."
+
+## 7. Tax & Profit Optimization
+- **Loss Harvesting:** Systematically sell losers to realize capital losses for tax offsets.
+- **Wash Sale:** No "Wash Sale" rules for crypto; immediate re-buys are permissible.
+
