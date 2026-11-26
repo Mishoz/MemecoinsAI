@@ -10,3 +10,4 @@
 
 ## References
 - Project Plan: [PROJECT_PLAN.md](./PROJECT_PLAN.md)
+- [ ] Fix `sentiment_analysis.py` and create tests for sentiment analysis.
