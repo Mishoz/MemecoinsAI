@@ -1,2 +1,2 @@
 #!/bin/sh
-python ../sentiment_analysis.py
+python sentiment_analysis.py
